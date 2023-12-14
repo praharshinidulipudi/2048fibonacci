@@ -1,0 +1,146 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title[Your short title]{2048 FIBONACCI}
+\author{ Dulipudi naga praharshini: 21b01a0545:CSE\\
+        Amjuri veeramani syamala devi: 21b01a0505: CSE \\
+        Chalumuri Harshita: 21b01a0412: ECE \\
+        Kanna naga parvathi:21b01a0116: CE \\
+        Dalavi Vasudha: 21b01a0108: CE}
+\institute{\Large SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN}
+\date{28th January,2023}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+  \item The Fibonacci version of the 2048 game! 
+Move tiles by swiping to any direction. Tiles with consecutive Fibonacci numbers will merge, get to the 2584 title to win! 
+Each Fibonacci number is the sum of the previous two numbers: 1, 1, 2, 3, 5, 8, 13,.....2584
+  \end{itemize}
+  \end{frame}
+
+\vskip 1cm
+
+
+
+\section{Some \LaTeX{} Examples}
+
+\subsection{Tables and Figures}
+
+\begin{frame}{Approach}
+
+\begin{itemize}
+\item Firstly we analyze the problem statement,and later on,we fetched the sources from google and other websites and we also add some logic that we learned from python programming in our academics and from google by combining both.we created a code for the problem statement.
+\item For the execution of the code we came up with  different platforms like python online compiler and pycharm.
+\item as we done the execution in python compiler we also tried in pycharm but we faced some issues. 
+\item issues like update , grid, display function and we tried to built the code again with all the constrains. 
+\item later,after all changes we used python Idle to run the code.
+\end{itemize}
+
+% Commands to include a figure:
+%\begin{figure}
+%\includegraphics[width=\textwidth]{your-figure's-file-name}
+%\caption{\label{fig:your-figure}Caption goes here.}
+%\end{figure}
+
+
+
+\end{frame}
+
+\begin{frame}{Learning}
+
+\item Python has a built-in module that you can use to make random numbers.
+
+The random module has a set of methods:
+\begin{itemize}
+
+ \item randrange():	Returns a random number between the given range
+\item randint():	Returns a random number between the given range
+\item random():	Returns a random float number between 0 and 1
+\item setstate():	Restores the internal state of the random number generator
+\item getrandbits():	Returns a number representing the random bits
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Challenges}
+\begin{itemize}
+    \item First we struggled for understanding about the problem statement.
+    \item To Overcome this problem we searched various websites to get proper information about the problem.
+    \item we took the code from various websites and practically tested it in IDLE'S like pycharm.
+    \item Unable to execute the code in Pycharm.so we used python IDLE.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+ {Statistics}
+  \item\large Number of lines of Code : 179
+  \item\large Number of functions : 8
+  \begin{itemize}
+    
+  
+  \item The fill randpos() function takes in a game board and a number of random positions to fill with the value 1.
+  \item The generate board() function creates a new game board with a given number of rows and columns, filled with the value 0. 
+  \item The generate fib cache() function generates a cache of the Fibonacci series up to a given number of terms and creates a map of those terms to their position in the series. 
+  \item The print board() function simply prints out the current state of the game board.
+  \end{itemize}
+  
+  \end {frame}
+ 
+  
+  
+  \begin{frame}{}
+    \begin{itemize}
+  \item The get sum list() function takes in a list of values and a Fibonacci cache, and returns a new list of the sums of adjacent elements in the input list that are also in the Fibonacci series.
+  \item Finally, the update board() function takes in a game board, a specific row or column to update, a list of values to update it with, and a direction (up, down, left, or right) to update it in
+   \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Demo }
+\item To run a demo of this code, you would need to first create a game board by calling the generate board function and passing in the desired number of rows and columns. You would then need to generate the fibonacci series and map by calling the generate fib function and passing in the same number of rows and columns.
+
+Once you have these two things, you can then call the other functions in the code to update the board, move the elements in a certain direction, and check for a win or loss. You could also include some user input to allow the player to choose the direction they want to move the elements, and call the appropriate functions in response.
+
+This would generate a 4x4 board, randomly place one 1 on the board, print the initial board, prompt the user to enter a direction to move the elements, move the elements in that direction and update the board, and then print the updated board.
+\end{frame}
+
+\begin{frame}{Screenshots}
+\usepackage{}
+\includegraphics[width = 0.8\textwidth]{output.jpeg}
+
+    
+\end{frame}
+
+\begin{frame}\begin{center}
+\Huge {Thank You}
+\end{center}
+   
+\end{frame}
+ \end{document}
